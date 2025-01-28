@@ -30,7 +30,7 @@
   top: -8px; /* Adjust this value to position the line correctly */
   height: 4px; /* Height of the horizontal line */
   width: 30px; /* Width of the horizontal line */
-  background-color: #ff0000; /* Color of the horizontal line */
+  background-color: #f00; /* Color of the horizontal line */
 }
 
 /* Update button styling to look like plain text */
@@ -47,7 +47,7 @@
   height: auto;
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .aicolumns-wrapper > .aicolumns > div {
     flex-direction: row; /* Ensure elements are side by side on larger screens */
     gap: 24px;

@@ -3,5 +3,5 @@ Please always provide the [GitHub issue(s)](../issues) your PR is for, as well a
 Fix #<gh-issue-id>
 
 Test URLs:
-- Before: https://main--dfink-absa-africa--aemdemos.aem.live/
-- After: https://<branch>--dfink-absa-africa--aemdemos.aem.live/
+- Before: https://main--acarol-absa-africa--alexcarol.aem.live/
+- After: https://main--acarol-absa-africa--alexcarol.aem.live/

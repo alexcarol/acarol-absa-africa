@@ -32,7 +32,7 @@
 
 /* Text Styling and Overlay */
 .aicarousel .aicarousel-slide > div:last-child {
-  background-color: rgba(0, 0, 0, 0.7); /* Darker semi-transparent background */
+  background-color: rgb(0 0 0 / 70%); /* Darker semi-transparent background */
   color: white;
   padding: 20px; /* Increase padding for better spacing */
   font-size: 1.3em; /* Increase font size for better readability */

@@ -74,7 +74,7 @@
   height: auto;
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .aicolumns-wrapper > .aicolumns {
     flex-direction: row; /* Ensure elements are side by side on larger screens */
     gap: 24px;

@@ -1,0 +1,59 @@
+
+/* Styling the main carousel container */
+.aicarousel {
+  position: relative;
+  width: 100%;
+  height: auto; /* Ensure it does not take the full viewport height */
+  overflow: hidden;
+}
+
+.aicarousel .aicarousel-slides-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.aicarousel .aicarousel-slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.aicarousel .aicarousel-slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Uniform image sizing */
+.aicarousel .aicarousel-slides img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensures the image covers the container without stretching */
+}
+
+/* Text Styling and Overlay */
+.aicarousel .aicarousel-slide > div:last-child {
+  background-color: rgb(0 0 0 / 70%); /* Darker semi-transparent background */
+  color: white;
+  padding: 20px; /* Increase padding for better spacing */
+  font-size: 1.3em; /* Increase font size for better readability */
+  font-weight: bold;
+  text-align: center; /* Center align text */
+  position: absolute;
+  bottom: 10%; /* Place text higher up on the image */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center align text box */
+  width: 80%; /* Adjust width to fit within padding */
+  box-sizing: border-box;
+  margin: 0;
+  border-radius: 5px; /* Add slight border radius for a smoother look */
+}
+
+/* Hide navigation buttons container */
+.aicarousel .aicarousel-navigation-buttons {
+  display: none;
+}
+
+/* Hide page indicators container */
+.aicarousel .aicarousel-slide-indicators {
+  display: none;
+}
